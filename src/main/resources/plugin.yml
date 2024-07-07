@@ -1,0 +1,4 @@
+name: SpitX
+version: '${project.version}'
+main: ru.hightsun.krokko.spitx.SpitX
+api-version: '1.16'
