@@ -1,0 +1,20 @@
+name: SpitX
+version: '1.1'
+main: org.example.pl.spitx.SpitX
+api-version: '1.16'
+author: 1Krokko3213
+commands:
+  spit:
+    description: Spit
+permissions:
+  spit.launch:
+    description: Позволяет плюваться
+    default: op
+  spit.set:
+    description: Позволяет установить значение volume или pitch
+    default: op
+    children:
+      spit.set.volume:
+        description: Позволяет установить значение volume
+      spit.set.pitch:
+        description: Позволяет установить значение pitch
