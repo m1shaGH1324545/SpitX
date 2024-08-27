@@ -19,4 +19,4 @@ class SpitX : JavaPlugin() {
         var instance: SpitX? = null
             private set
     }
-} // пошел нахууййййййййй
+} 
